@@ -1,0 +1,161 @@
+:root{
+    --bg-body: #131416;
+    --color-font: #ffff;
+    --color-button: #0772EB;
+}
+
+.container{
+    max-width: 830px;
+    margin: auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-body);
+}
+
+header .welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.welcome h1{
+    color: var(--color-font);
+}
+
+.welcome img{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.section-1 h3{
+    display: inline-block;
+    background-color: var(--color-button);
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: var(--color-font);
+}
+
+.lists{
+    display: flex;
+    margin-top: 30px;
+}
+
+.list-1 ul{
+    color: var(--color-font);
+}
+
+.list-2 ul{
+    color: var(--color-font);
+}
+
+.section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.section-2 h3{
+    display: inline-block;
+    background-color: var(--color-button);
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: var(--color-font);
+}
+
+.videos{
+    display: flex;
+    margin: 50px;
+}
+
+.video-1 img{
+    width: 200px;
+    height: 150px;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.video-1 img:hover{
+    transform: scale(1.1);
+}
+
+.video-2 img{
+    width: 200px;
+    height: 150px;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.video-2 img:hover{
+    transform: scale(1.1);
+}
+
+.video-3 img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.video-3 img:hover{
+    transform: scale(1.1);
+}
+
+.section-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.section-3 h3{
+    display: inline-block;
+    background-color: var(--color-button);
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: var(--color-font);
+}
+
+.formulario{
+    display: flex;
+    margin: 50px;
+}
+
+.form-1{
+    font-weight: bold;
+    color: var(--color-font);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1C2029;
+    height: 50px;
+    padding-bottom: 35px;
+}
+
+footer p{
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--color-font);
+}
