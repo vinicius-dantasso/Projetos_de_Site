@@ -1,0 +1,60 @@
+body{
+    margin: auto 0;
+}
+
+header{
+    display: flex;
+    color: #fff;
+    font-size: 1.2em;
+    background-color: green;
+    padding: 10px 10px 15px 10px;
+}
+
+.btn{
+    margin-left: 1em;
+}
+
+.last-btn{
+    margin-left: auto;
+}
+
+.cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199, 49, 49);
+    height: 50vh;
+}
+
+.cover p{
+    font-size: 2.5em;
+}
+
+.cards{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    background-color: rgb(34, 103, 187);
+}
+
+.card img{
+    width: 100%;
+}
+
+.card{
+    background-color: #444;
+    padding: 130px;
+    margin: 20px;
+    transition: 0.1s;
+}
+
+.card:hover{
+    transform: rotate(-5deg);
+}
+
+footer{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5px;
+    background-color: rgb(213, 213, 13);
+}
